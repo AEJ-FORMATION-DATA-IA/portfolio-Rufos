@@ -65,7 +65,7 @@
 }
 
 .igs-navbar .igs-menu li a {
-    color: rgb(231, 21, 179);
+    color: rgb(13, 233, 60);
     font-size: 18px;
     font-weight: 500px;
     margin-left: 25px;
@@ -124,6 +124,7 @@
     padding:20px 0;
 }
 
+
 .igs-home .igs-photo-float-right{
     float: right;
 }
@@ -134,10 +135,7 @@
  .igs-photo-boder{
     border: 1px solid #b3aca7; 
  }
- .igs-photo{
-     
- }
-
+ 
 .igs-home .igs-photo-padding{
     margin-right: 0px ;
 }
@@ -166,7 +164,23 @@
 .igs-home .igs-home-content .igs-text3 span{
     color:red;
 }
-
+.igs-home .igs-home-content .igs-lien a{
+    display:inline-block;
+    background: gold;
+    color: aliceblue;
+    font-size: 25px;
+    padding:12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid gold;
+    transition:all 0.3s ease;
+    padding: -25px ;
+    margin-left: 100px;
+}
+.igs-home .igs-home-content .igs-lien a:hover{
+    color:#fff;
+    background:none;
+}
 
 .igs-flip-card-perspective {
     perspective: 1000px; /* ramener si vous ne voulez pas l'effet 3D */
@@ -181,10 +195,7 @@
   .igs-flip-card-width{
     width: 200px;
   }
-  .igs-flip-card-background-color{
-    background-color: transparent;
-  }
-
+ 
   .igs-flip-card-inner-transform-style {
     transform-style: preserve-3d;
   }
@@ -215,3 +226,35 @@
   .igs-flip-card-front-backgrounf-color{
     background-color: #bbb;
   } 
+  .igs-photo img{
+    box-shadow: 0 0 80px #111;
+  }
+
+
+
+
+  /*Le style du A propos du home section start*/
+
+section{
+    padding: 100px 0;
+}
+
+  .igs-apropos{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .igs-apropos .igs-titre-h2{
+      text-align: center;
+      font-size: 40px;
+    font-weight: 500px;
+    margin: bottom 60px;
+    padding-bottom: 20px;
+      font-family: monospace, sans-serif;
+  } 
+
+  .igs-apropos .igs-apropos-content .gauche img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
+  
