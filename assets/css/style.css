@@ -29,6 +29,9 @@
 .igs-navbar-position{
     position:fixed !important;
 }
+.igs-navbar{
+    z-index: 999;
+}
 .igs-navbar-taille{
     width:100%;
 
@@ -65,7 +68,7 @@
 }
 
 .igs-navbar .igs-menu li a {
-    color: rgb(13, 233, 60);
+    color: rgb(233, 13, 149);
     font-size: 18px;
     font-weight: 500px;
     margin-left: 25px;
@@ -255,14 +258,52 @@ section{
   .igs-apropos .igs-titre-h2::before{
       content: "";
     position: absolute;
+    bottom: 0px;
+    left: 50%;
     width: 330px;
     height: 4px;
     background:#111;
+    transform: translateX(-50%);
   }
+
+  .igs-apropos .igs-titre-h2::after{
+    content: "Qui suis-je ?";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  font-size: 20px;
+  color:royalblue;
+  padding: 5px;
+  background:#fff;
+  transform: translateX(-50%);
+}
+.igs-apropos .igs-apropos-content{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+.igs-apropos .igs-apropos-content .gauche{
+    width: 45%;
+}
 
   .igs-apropos .igs-apropos-content .gauche img{
     height: 400px;
     width: 400px;
     object-fit: cover;
+    border-radius: 6px;
   }
+
+  .igs-apropos .igs-apropos-content .droit{
+    width: 55%;
+    font-weight: 550px;
+}
+
+.igs-apropos .igs-apropos-content .droit .igs-text-moi{
+    font-size: 25px;
+}
+.igs-apropos .igs-apropos-content .droit .igs-text-moi span{
+    color:red;
+}
+
   
