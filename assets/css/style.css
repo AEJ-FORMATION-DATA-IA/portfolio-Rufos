@@ -244,6 +244,7 @@ section{
   }
 
   .igs-apropos .igs-titre-h2{
+    position: relative;
       text-align: center;
       font-size: 40px;
     font-weight: 500px;
@@ -251,6 +252,13 @@ section{
     padding-bottom: 20px;
       font-family: monospace, sans-serif;
   } 
+  .igs-apropos .igs-titre-h2::before{
+      content: "";
+    position: absolute;
+    width: 330px;
+    height: 4px;
+    background:#111;
+  }
 
   .igs-apropos .igs-apropos-content .gauche img{
     height: 400px;
